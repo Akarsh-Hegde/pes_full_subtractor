@@ -102,7 +102,8 @@ write_verilog -noattr pes_full_subtractor_netlist.v
 
 - Now using the netlist file, we verify the waveform once more
 
-![9](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/719b8220-f29a-4595-b182-3d6bd3f0bdaa)
+![WhatsApp Image 2023-10-21 at 1 16 14 PM](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/fc7ed296-2882-474e-a264-d5a96b312670)
+
 
 
 - To read the design and test bench file we must use the command
