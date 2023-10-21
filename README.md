@@ -1,4 +1,4 @@
-# pes_tff
+# pes_full_subtractor
 # Contents
 - [Full Subtractor](#full-subtractor)
 - [Iverilog and yosys installation](#iverilog-and-yosys-installation)
