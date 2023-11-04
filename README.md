@@ -226,7 +226,7 @@ vim config.json
 - Then type ```./flow.tcl -interactive```.
 - To prep the design type
 ```
-prep -design pes_ripple_counter
+prep -design pes_full_subtractor
 ```
 
 ### Synthesis
