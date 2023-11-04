@@ -266,13 +266,21 @@ run_cts
 - The reports generated are given below
 
 
+![WhatsApp Image 2023-11-03 at 11 21 53 PM](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/008dfa68-879b-4d3b-bd18-f3c3161654d1)
 
-**Power Report**
+![WhatsApp Image 2023-11-03 at 11 23 24 PM](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/2ee6d3ff-3359-41c2-b072-bb41a3fcb3de)
+
+**Power and Area Report**
+
+<img width="576" alt="280473321-478ba7d3-8b5e-4bea-a215-bcef1263153b" src="https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/6b5de4e8-a478-462d-bbe3-3603ef087853">
+
+<img width="576" alt="280473324-5b65a44a-1d1c-4f15-a102-ed2e68210eb5" src="https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/6b08f6e8-9fca-4d07-b4cb-9d8239a333e8">
+
+<img width="715" alt="Screenshot 2023-11-04 at 8 01 41 PM" src="https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/1b59abcf-9a77-484f-af05-adb82d7aa193">
 
 **Skew Report**
 
-
-**Area Report**
+<img width="632" alt="Screenshot 2023-11-04 at 8 16 27 PM" src="https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/8ccf1d55-eeff-49ec-86fe-1755dd8444d9">
 
 
 ### Routing
@@ -288,20 +296,12 @@ run_routing
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def pes_tff.def &
 ```
 ![WhatsApp Image 2023-11-03 at 10 53 31 PM](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/1ceb5651-b52b-428a-810d-14fb7d8066f7)
-
-
-**Congestion Report**
-
-
-**Power and Clock Skew Report**
-
-
-**Summary Report and Area Report**
+![WhatsApp Image 2023-11-03 at 10 52 51 PM](https://github.com/Akarsh-Hegde/pes_full_subtractor/assets/79705687/a6a14e55-b4a6-40ed-a157-0cf6c995409c)
 
 
 **Statistics**
-- Area = 
-- Internal Power = 
-- Switching Power = 
-- Leakage Power = 
-- Total Power = 
+- Area = Area = 238 u^2
+- Internal Power = 6.28e-06 W
+- Switching Power = 1.05e-05 W
+- Leakage Power =  1.47e-10 W
+- Total Power = 1.67e-05 W (100 %)
